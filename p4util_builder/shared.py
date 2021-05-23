@@ -1,6 +1,8 @@
 class TopologyBuilder:
     def __init__(self):
-        pass
+        self.switches = []
+        self.hosts = []
+        self.links = []
     
     def generate(self):
         return ""
